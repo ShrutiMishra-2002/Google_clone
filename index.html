@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>New tab</title>
+    <meta content="" name="description">
+  <meta content="" name="keywords">
+
+    <link href="images/chrome1.png" rel="icon"> 
+    <link href="images/chrome1.png" rel="apple-touch-icon">
+   
   </head>
   <body>
     <section>
-      <div class="header">
+      <div class="header" id="header">
         <ul>
+          <div class="theme-switch-container">
+            <label class="theme-slider" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="round slider"></div>
+            </label>
+
           <li><a href="#">Gmail</a></li>
           <li><a href="#">Images</a></li>
           <li>
@@ -22,7 +36,7 @@
       <div class="imageg">
         <img src="images/google.png" alt="" class="brand" />
         <div class="search-box">
-          <input type="text" class="search" />
+          <input type="text" class="search" id="search" />
           <div class="icon">
             <div><img src="images/search.png" alt="" /></div>
             <div><img src="images/mic.png" alt="" /></div>
@@ -64,5 +78,7 @@
         </div>
       </div>
     </section>
+    <script defer src="script.js"></script>
+
   </body>
 </html>
