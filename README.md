@@ -1,7 +1,7 @@
 ## Google Clone
 
 <h2> Website Link : 
-<a href="#" target="_blank">HAVE A LOOK</a>
+<a href="https://shrutimishra-2002.github.io/Google_clone/" >HAVE A LOOK</a>
 </h2> 
 <br>
 
